@@ -8,3 +8,5 @@ expo install react-native-gesture-handler react-native-reanimated react-native-s
 yarn add @react-navigation/stack
 yarn add react-native-google-places-autocomplete
 yarn add react-native-dotenv
+yarn add react-native-maps
+yarn add react-native-maps-directions
