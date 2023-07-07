@@ -15,28 +15,21 @@
 
 ## 🤔 Sobre
 
-App para listar, pesquisar e ver atributos de pokémons consumindo a **api pokeapi**.
-
-Layout baseado [Nesse projest](https://www.behance.net/gallery/95727849/Pokdex-App/modules/552909481)
+Peça um Uber X, XL ou LUX, veja a distância total entre os dois locais e o quanto você tem que pagar.
 
 ---
 
 ## 📱 Preview do projeto
 
-Segue o preview em video do projeto
+Segue alguns prints do projeto:
 
 <div>
-<video width="200" autoplay="true" loop="true" controls src="./assets/pokedex.mp4">
-</video>
+  <img style="margin: 5px" alt="login" src="https://i.imgur.com/sMw3qZb.png" width="235">
+  <img style="margin: 5px" alt="register" src="https://i.imgur.com/rnHzdN9.png" width="237">
+  <img style="margin: 5px" alt="dashboard" src="https://i.imgur.com/OwOGh4U.png" width="231">
 </div>
-
-segue alguns prints do projeto
-
-<div>
-  <img style="margin: 5px" alt="login" src="https://i.imgur.com/Rh8Tdp8.png" width="230">
-  <img style="margin: 5px" alt="register" src="https://i.imgur.com/Kwlp4Mc.png" width="235">
-  <img style="margin: 5px" alt="dashboard" src="https://i.imgur.com/b6BtanV.png" width="235">
-</div>
+<br>
+Você pode ver o vídeo do projeto clicando <a href="https://www.linkedin.com/feed/update/urn:li:activity:7080930055383638016/">aqui!</a>
 
 ---
 
@@ -44,13 +37,14 @@ segue alguns prints do projeto
 
 O projeto foi feito utilizando das seguintes tecnologias
 
-- Expo
 - React Native
-- React Hooks & Props
-- Styled-Components
-- Typescript
-- Axios API
-- Reanimated V2
+- Redux Toolkit
+- API Google Autocomplete
+- React Navigation
+- Tailwind CSS
+- Functional Components
+- React Hooks
+- Expo
 
 ---
 
@@ -58,7 +52,7 @@ O projeto foi feito utilizando das seguintes tecnologias
 
 ```bash
   #clonar o repositorio
-  $ git clone git@github.com:eliasef/api-pokedex.git
+  $ git clone git@github.com:eliasef/uber-clone.git
 
   #entrar na pasta do projeto
   $ cd api-pokedex
@@ -76,17 +70,15 @@ O projeto foi feito utilizando das seguintes tecnologias
 
 ## 💻 Funcionalidades
 
-- Listagem de pokemons da api
+- Peça um UBER especificando local de partida e local de destino
 
-- Visualizar detalhes do pokemon
+- Visualize os dois locais no mapa, clicando sobre o endereço
 
-- Listar hp, attack e etc
+- Veja a distância em km entre origem e destino
 
-- Listar Habilidades
+- Veja a distância em minutos ou horas para chegar no seu destino
 
-- Carregar várias páginas de pokémons
-
-- Buscar por nome de pokémon
+- Veja o preço para cada tipo de Uber para sua viagem, alterando entre Uber X, XL ou LUX.
 
 ## ⬇ Download
 
